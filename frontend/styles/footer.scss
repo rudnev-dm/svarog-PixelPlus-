@@ -1,0 +1,43 @@
+.footer {
+  margin-bottom: 30px;
+}
+
+.payment {
+  width: 320px;
+  height: 87.5;
+  float: left;
+  font-size: 0;
+  line-height: 87.5px;
+}
+
+.copyright {
+  width: 320px;
+  float: left;
+  &__date {
+    text-align: center;
+  }
+  &__img {
+    text-align: center;
+  }
+  &__slogan {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__mail {
+    text-align: center;
+  }
+}
+
+.developer {
+  width: 320px;
+  float: left;
+  padding-top: 15px;
+  text-align: right;
+  &__link {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  &__link:hover {
+    color: $main-menu-color--active;
+  }
+}

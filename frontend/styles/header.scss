@@ -1,0 +1,26 @@
+.header__top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.main-menu {
+  box-sizing: border-box;
+  width: 100%;
+  @include list-reset;
+  display: table;
+  margin-bottom: 40px;
+  border-top: 1px solid $main-menu-border-color;
+  border-bottom: 1px solid $main-menu-border-color;
+  &__item {
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__link:hover {
+    color: $main-menu-color--active;
+  }
+}
