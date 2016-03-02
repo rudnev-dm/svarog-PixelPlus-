@@ -8,6 +8,9 @@
   float: left;
   font-size: 0;
   line-height: 87.5px;
+  &__img {
+    vertical-align: middle;
+  }
 }
 
 .copyright {
