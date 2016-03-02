@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Segoe WP';
+  src: url("../fonts/subset-SegoeWP-Semibold.eot");
+  src: url("../fonts/subset-SegoeWP-Semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/subset-SegoeWP-Semibold.woff2") format("woff2"), url("../fonts/subset-SegoeWP-Semibold.woff") format("woff"), url("../fonts/subset-SegoeWP-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Segoe WP';
+  src: url("../fonts/subset-SegoeWP-Light.eot");
+  src: url("../fonts/subset-SegoeWP-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/subset-SegoeWP-Light.woff2") format("woff2"), url("../fonts/subset-SegoeWP-Light.woff") format("woff"), url("../fonts/subset-SegoeWP-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+body {
+  font-family: Segoe WP, Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #5a5a5a;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none; }
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.page-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.header__top {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center; }
+
+.main-menu {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  margin-bottom: 40px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada; }
+  .main-menu__item {
+    display: table-cell;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase; }
+  .main-menu__link:hover {
+    color: #c71b00; }
+
+.main-page {
+  margin-bottom: 85px; }
+
+.item-card {
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 60px; }
+  .item-card__top {
+    border: 1px solid #dadada;
+    margin-bottom: 23px; }
+  .item-card__bottom {
+    position: relative; }
+  .item-card__bottom-left {
+    width: 130px;
+    float: left;
+    margin-right: 40px; }
+  .item-card__bottom-title {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold; }
+  .item-card__color-list {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 20px; }
+  .item-card__color-item {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000; }
+  .item-card__name-color {
+    color: #0c0c0c; }
+  .item-card__color-value {
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: lightblue; }
+  .item-card__info-icon {
+    position: absolute;
+    top: 2px;
+    right: -20px;
+    width: 15px;
+    height: 15px;
+    background-image: url("img/information-link.svg");
+    background-size: 15px 15px; }
+  .item-card__bottom-right {
+    width: 130px;
+    float: left; }
+  .item-card__price-count {
+    margin-bottom: 25px;
+    font-family: PT Sans;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: bold; }
+  .item-card__basket-image {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    display: block; }
+  .item-card__metall-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 20px; }
+  .item-card__metall-item {
+    font-size: 13px;
+    font-weight: bold; }
+  .item-card__metall-value {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: lightgray; }
+
+.item-card:nth-child(3n) {
+  margin-right: 0; }
+
+.item-card:nth-last-child(-n+3) {
+  margin-bottom: 0; }
+
+.fa {
+  margin-left: 5px; }
+
+.footer {
+  margin-bottom: 30px; }
+
+.payment {
+  width: 320px;
+  height: 87.5;
+  float: left;
+  font-size: 0;
+  line-height: 87.5px; }
+  .payment__img {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle; }
+
+.copyright {
+  width: 320px;
+  float: left; }
+  .copyright__date {
+    text-align: center; }
+  .copyright__img {
+    text-align: center; }
+  .copyright__slogan {
+    text-align: center;
+    text-transform: uppercase; }
+  .copyright__mail {
+    text-align: center; }
+
+.developer {
+  width: 320px;
+  float: left;
+  padding-top: 15px;
+  text-align: right; }
+  .developer__link {
+    font-size: 13px;
+    font-weight: bold; }
+  .developer__link:hover {
+    color: #c71b00; }
+
+/*# sourceMappingURL=main.css.map */
