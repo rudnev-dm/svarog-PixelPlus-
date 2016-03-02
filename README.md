@@ -1,2 +1,2 @@
 # svarog-PixelPlus-
-Pixel Plus project [Svarog - e-shop]
+**Pixel Plus project [Svarog - e-shop]**
